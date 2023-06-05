@@ -219,6 +219,7 @@
   height: 400px;
   object-fit: cover;
   cursor: pointer;
+  display: block;
 }
 
 .image-container {
@@ -250,6 +251,9 @@
   letter-spacing: 0.04em;
 }
 
+.image-container:hover {
+  box-shadow: 3px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
 .image-container:hover .details {
   opacity: 1;
   visibility: visible;
@@ -260,7 +264,7 @@
   place-items: center;
   background: #0c646d;
   color: #ffffff;
-  padding: 5% 0;
+  padding: 8% 0;
   margin: 5% 0 2%;
 }
 
@@ -734,14 +738,6 @@
     font-size: 26px;
   }
   /* footer */
-  .footer-info {
-    display: grid;
-    place-items: center;
-    background: #0c646d;
-    color: #ffffff;
-    padding: 5% 0;
-    margin: 5% 0 2%;
-  }
 
   .footer-info h2 {
     font-size: 32px;
